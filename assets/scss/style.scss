@@ -1,0 +1,50 @@
+// @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.header-main {
+  background: url("../img/top-1340x150.jpg") no-repeat;
+  background-position: 50% 50%;
+  max-height: 150px;
+}
+
+.carousel {
+  margin: 0 auto;
+  max-width: 360px;
+}
+
+.car-type {
+  display: flex;
+  flex-direction: column;
+  float: left;
+
+  max-width: 240px;
+  margin: 0 20px 10px 0;
+  padding: 5px;
+
+  &__description {
+    padding: 10px;
+  }
+}
+
+.accordion-item__description::first-letter {
+  padding-left: 1.5rem;
+}
+
+.navbar-brand {
+  width: 110px;
+  height: 65px;
+}
+
+.nav-item:first-of-type {
+  margin-left: 110px;
+}
+
+.navbar-brand__link {
+  position: absolute;
+  top: -15px;
+}
+
+.navbar-brand__text {
+  text-align: center;
+  margin-top: -10px;
+  color: #ffff00;
+}
