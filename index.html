@@ -46,14 +46,14 @@
     <div class="col">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
         <div class="container navbar-container">
-          <div class="navbar-brand position-absolute ">
+          <div class="navbar-brand">
             <a class="navbar-brand__link text-uppercase d-block text-decoration-none fw-bold" href="#">
               <img class="navbar-brand__logo" src="assets/img/LOGO-small.png" alt="logo">
               <p class="navbar-brand__text">1 Mach</p>
             </a>
           </div>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarTop"
+          <button class="navbar-toggler end-sm-50" type="button" data-bs-toggle="collapse" data-bs-target="#navBarTop"
             aria-controls="navBarTop" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -103,30 +103,6 @@
                   <li><a class="dropdown-item" href="#">Литва</a></li>
                   <li><a class="dropdown-item" href="#">Коррея</a></li>
                   <li><a class="dropdown-item" href="#">США</a></li>
-                </ul>
-              </li>
-            </ul>
-
-            <ul class="navbar-nav   mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">О нас</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Наша команда</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Как нас найти</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Блог
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Записки программиста</a></li>
-                  <li><a class="dropdown-item" href="#">Мысли вслух</a></li>
-                  <li><a class="dropdown-item" href="#">Экспертное мнение</a></li>
-                  <li><a class="dropdown-item" href="#">Архив записей</a></li>
                 </ul>
               </li>
             </ul>
@@ -263,29 +239,10 @@
             </div>
           </div>
         </div>
-        <!-- 
-        <form action="dfsfg">
-          <div class="mb-4">
-            <label class="form-label" for="login">Логин</label>
-            <input class="form-control is-valid" id="login" type="text" placeholder="Логин">
-            <div class="invalid-feedback">Введен неправильный пароль</div>
-            <div class="valid-feedback"></div>
-          </div>
-          <div class="mb-4">
-            <label class="form-label" for="pass">Пароль</label>
-            <input class="form-control" id="pass" type="text" placeholder="Пароль">
-          </div>
-          <div class="mb-4">
-            <label class="form-label" for="email">e-mail</label>
-            <input class="form-control is-valid" id="email" type="text" placeholder="Электронная почта">
-            <div class="invalid-feedback">Введен неправильный аддрес эл почты</div>
-            <div class="valid-feedback"></div>
-          </div>
-          <div class="mb-4"><button class="btn btn-outline-primary" type="submit">Отправить</button></div>
-        </form> -->
+
       </div>
       <!-- left -->
-      <div class="block-carusel col-xxl-3 col-xl-3 col-sm-12 text-sm-center order-xl-first">
+      <div class="block-carusel col-xxl-3 col-xl-3 col-sm-12 text-sm-center order-xl-first mb-5 ">
         <div id="sliderControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -314,15 +271,48 @@
           </a>
         </div>
       </div>
-      <!-- right -->
-      <!-- <div class="col-xxl-2 col-xl-12 col-lg-6 col-sm-12">
-        <span>right</span>
-      </div> -->
+
+
+      <div class="form-container col-xxl-2 col-lg-12 mx-auto">
+        <form class="form form-block border-dark p-lg-2 p-sm-4" action="#">
+          <div class="mb-2">
+            <label class="form-label" for="secondName">Фамилия</label>
+            <input class="form-control" id="secondName" type="text" placeholder="Фамилия">
+          </div>
+          <div class="mb-2">
+            <label class="form-label" for="firstName">Имя</label>
+            <input class="form-control" id="firstName" type="text" placeholder="Имя">
+          </div>
+          <div class="mb-2">
+            <label class="form-label" for="vinCode">VIN-код</label>
+            <input class="form-control" id="vinCode" type="text" placeholder="VIN-код автомобиля">
+          </div>
+          <div class="mb-2">
+            <label class="form-label" for="carYear">Год выпуска</label>
+            <input class="form-control" id="carYear" type="number" min="1970" max="2022" value="2022"
+              placeholder="Год выпуска">
+            </input>
+          </div>
+          <div class="mb-2">
+            <label class="form-label" for="description">Краткое описание неисправности</label>
+            <textarea class="form-control description w-100 h-25" id="description" type="text"
+              placeholder="Описание неисправности" rows="5">
+            </textarea>
+          </div>
+          <div class="mb-4 mt-4 form-controls">
+            <button class="btn btn-outline-primary w-100 mb-2 mb-4" type="submit">Записаться</button>
+            <button class="btn btn-outline-primary w-100" type="reset">Очистить форму</button>
+          </div>
+        </form>
+      </div>
     </div>
+
   </div>
   <div class="bg-dark text-light py-5 mb-4">
     <div class="row">
-      <div class="col "><span> footer</span></div>
+      <div class="col ">
+        <!-- <span> footer</span> -->
+      </div>
     </div>
   </div>
 
