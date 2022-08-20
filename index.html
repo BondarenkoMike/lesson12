@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script> 
-  -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script> -->
+
 
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet"> -->
@@ -19,80 +19,76 @@
 </head>
 
 <body>
-  <div class="header-main-bg bg-dark py-5"> </div>
-  <div class="row">
-    <div class="col">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
-        <div class="container navbar-container">
-          <div class="navbar-brand">
-            <a class="navbar-brand__link text-uppercase d-block text-decoration-none fw-bold" href="#">
-              <img class="navbar-brand__logo" src="assets/img/LOGO-small.png" alt="logo">
-              <p class="navbar-brand__text">1 Mach</p>
-            </a>
-          </div>
+  <div class="header-main-bg bg-black py-5"></div>
 
-          <button class="navbar-toggler end-sm-50" type="button" data-bs-toggle="collapse" data-bs-target="#navBarTop"
-            aria-controls="navBarTop" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navBarTop">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Главная</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Расходные материалы
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Масла</a></li>
-                  <li><a class="dropdown-item" href="#">Фильтры</a></li>
-                  <li><a class="dropdown-item" href="#">Масла</a></li>
-                  <li><a class="dropdown-item" href="#">Антифриз</a></li>
-                  <li><a class="dropdown-item" href="#">Ремни</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Запчасти
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Ходовая</a></li>
-                  <li><a class="dropdown-item" href="#">Электрооборудование</a></li>
-                  <li><a class="dropdown-item" href="#">Тормозная система</a></li>
-                  <li><a class="dropdown-item" href="#">Салон</a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">Автохимия</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Пригон автомобилей
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Германия</a></li>
-                  <li><a class="dropdown-item" href="#">Литва</a></li>
-                  <li><a class="dropdown-item" href="#">Коррея</a></li>
-                  <li><a class="dropdown-item" href="#">США</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-2">
+    <div class="container navbar-container">
+      <div class="navbar-brand">
+        <div class="navbar-brand__container d-inline-block position-relative">
+          <a class="navbar-brand__link position-absolute text-uppercase d-block text-decoration-none fw-bold" href="#">
+            <img class="navbar-brand__logo" src="assets/img/LOGO-small.png" alt="logo">
+            <p class="navbar-brand__text text-center">1 Mach</p>
+          </a>
         </div>
-      </nav>
-    </div>
-  </div>
+      </div>
 
-  <div class="container">
+      <button class="navbar-toggler end-sm-50" type="button" data-bs-toggle="collapse" data-bs-target="#navBarTop"
+        aria-controls="navBarTop" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navBarTop">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Главная</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Расходные материалы
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Масла</a></li>
+              <li><a class="dropdown-item" href="#">Фильтры</a></li>
+              <li><a class="dropdown-item" href="#">Масла</a></li>
+              <li><a class="dropdown-item" href="#">Антифриз</a></li>
+              <li><a class="dropdown-item" href="#">Ремни</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Запчасти
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ходовая</a></li>
+              <li><a class="dropdown-item" href="#">Электрооборудование</a></li>
+              <li><a class="dropdown-item" href="#">Тормозная система</a></li>
+              <li><a class="dropdown-item" href="#">Салон</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Автохимия</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Пригон автомобилей
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Германия</a></li>
+              <li><a class="dropdown-item" href="#">Литва</a></li>
+              <li><a class="dropdown-item" href="#">Коррея</a></li>
+              <li><a class="dropdown-item" href="#">США</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container container-main mb-6">
     <div class="row">
-      <div class="col-xxl-7 col-xl-9 col-sm-12 mb-4 mx-auto">
+      <div class="col-xxl-7 col-xl-7 col-md-12 col-sm-12 mb-4 mx-auto">
         <div class="accordion" id="accordionHomeWork">
           <div class="accordion-item ">
             <h2 class="accordion-header" id="headingOne">
@@ -104,14 +100,14 @@
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
               data-bs-parent="#accordionHomeWork">
               <div class="accordion-body">
-                <div class="car-type">
+                <div class="car-type d-flex flex-column  p-1 float-start">
                   <img class="car-type__img" src="assets/img/carTypes/sedan-classic.jpg" alt="">
-                  <div class="car-type__description">
+                  <p class="car-type__description p-1">
                     Седан Peugeot 206 — специальная разработка для рынков развивающихся стран на базе европейского
                     хэтчбека.
-                  </div>
+                  </p>
                 </div>
-                <!-- <strong>This is the first item's accordion body.</strong> -->
+
                 <p class="accordion-item__description">
                   <span class="accented-text fw-bold">Классический седан</span> (англ. formal sedan) имеет три чётко
                   выраженных объёма — моторный отсек, салон и
@@ -127,6 +123,26 @@
                   характерный для современных седанов клиновидный силуэт. Такая форма кузова оказалась целесообразна и с
                   аэродинамической точки зрения.
                 </p>
+                <p class="accordion-item__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                  earum quos quo animi eligendi cumque explicabo blanditiis ad, nobis corrupti. Qui nihil ipsam, enim
+                  facere maxime, debitis nobis aliquam officiis magnam perspiciatis eligendi totam unde, suscipit ea
+                  reiciendis nostrum pariatur. Sequi vitae quo ipsam cum expedita, inventore accusantium repellat
+                  beatae.</p>
+                <p class="accordion-item__description">Repellat atque nobis dolore ad commodi incidunt officiis, sequi,
+                  in distinctio rerum fugit! Possimus reiciendis aspernatur odit quas totam a impedit dolores, nisi
+                  tempora sunt accusamus, voluptate, debitis soluta excepturi quae! Vero voluptatum animi, nam,
+                  consequatur, in inventore non repellendus doloremque neque tenetur eum quidem odio? Nulla, repellendus
+                  architecto? Quod!</p>
+                <p class="accordion-item__description">Pariatur doloribus laboriosam, eligendi impedit ducimus cumque
+                  eveniet. Commodi quaerat ab, eveniet quisquam ad numquam atque quas illo quidem incidunt
+                  necessitatibus quod, perferendis tempore illum voluptas dolorum facilis. Voluptatibus similique eaque
+                  nesciunt quibusdam est placeat dolorem assumenda debitis recusandae excepturi a eligendi, quod ut?
+                  Necessitatibus tempore odio aliquid ad commodi.</p>
+                <p class="accordion-item__description">Exercitationem reiciendis voluptatum qui sit soluta recusandae
+                  officiis placeat facere iste quasi, quae ut amet iusto odio. Cumque necessitatibus quo error.
+                  Perspiciatis quisquam labore quis est animi voluptate ducimus id non? Amet nesciunt a sequi dolores
+                  voluptatum odio fugit vero, deserunt, quod voluptate repellendus dolore neque. Dolore esse id
+                  suscipit.</p>
               </div>
             </div>
           </div>
@@ -141,11 +157,11 @@
               data-bs-parent="#accordionHomeWork">
 
               <div class="accordion-body">
-                <div class="car-type">
+                <div class="car-type d-flex flex-column p-1 float-start">
                   <img class="car-type__img" src="assets/img/carTypes/240px-1960_Mercury_Colony_Park.jpg" alt="">
-                  <div class="car-type__description">
+                  <p class="car-type__description p-1">
                     Хардтоп-универсал Mercury конца 1950-х годов с фальш-деревянной отделкой
-                  </div>
+                  </p>
                 </div>
                 <p class="accordion-item__description">Форма <span class="accented-text fw-bold">универсала</span> имеет
                   принципиальное отличие от седана в том, что багажное отделение и пассажирский салон объединены, крыша
@@ -174,7 +190,7 @@
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
-              <button class="accordion-button collapsed  fw-bold" type="button" data-bs-toggle="collapse"
+              <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Внедорожник ( SUV )
               </button>
@@ -183,11 +199,11 @@
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
               data-bs-parent="#accordionHomeWork">
               <div class="accordion-body">
-                <div class="car-type">
+                <div class="car-type d-flex flex-column  p-1 float-start">
                   <img class="car-type__img" src="assets/img/carTypes/Toyota_jeep.jpg" alt="">
-                  <div class="car-type__description">
+                  <p class="car-type__description p-1">
                     Автомобиль Toyota с увеличенными колёсами и модифицированной подвеской
-                  </div>
+                  </p>
                 </div>
                 <p class="accordion-item__description">
                   <span class="accented-text fw-bold">SUV</span> (произносится как «эс-ю-ви», англ. <span
@@ -216,10 +232,10 @@
             </div>
           </div>
         </div>
-
       </div>
-      <div class="block-carusel col-xxl-3 col-xl-3 col-sm-12 text-sm-center order-xl-first mb-5 ">
-        <div id="sliderControls" class="carousel slide" data-bs-ride="carousel">
+      <div
+        class="d-flex col-xxl-3 col-xl-3 col-md-6 col-sm-12 text-sm-center order-xl-first mb-5 justify-content-xxl-start justify-content-center">
+        <div id="sliderControls" class="carousel slide " data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="assets/img/vert/img-brigde.jpg" class="d-bloc" alt="Мост">
@@ -239,16 +255,17 @@
           </div>
           <a class="carousel-control-prev" href="#sliderControls" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Предыдущий</span>
+            <span class="sr-only"></span>
           </a>
           <a class="carousel-control-next" href="#sliderControls" role="button" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Следующий</span>
+            <span class="sr-only"></span>
           </a>
         </div>
       </div>
-      <div class="form-container col-xxl-2 col-lg-12 mx-auto">
-        <form class="form form-block border-dark p-xl-0 p-lg-2 p-sm-4" action="#">
+      <div class="d-flex col-xxl-2 col-xl-2 col-md-6 col-sm-12 mx-auto justify-content-center">
+        <form class="form form-block border-dark p-xl-0 p-lg-2 p-sm-3" action="#">
+
           <div class="mb-2">
             <label class="form-label" for="secondName">Фамилия</label>
             <input class="form-control" id="secondName" type="text" placeholder="Фамилия">
@@ -265,12 +282,11 @@
             <label class="form-label" for="carYear">Год выпуска</label>
             <input class="form-control" id="carYear" type="number" min="1970" max="2022" value="2022"
               placeholder="Год выпуска">
-            </input>
           </div>
           <div class="mb-2">
             <label class="form-label" for="description">Краткое описание неисправности</label>
-            <textarea class="form-control description w-100 h-25" id="description" type="text"
-              placeholder="Описание неисправности" rows="5">
+            <textarea class="form-control description w-100 h-25" id="description" placeholder="Описание неисправности"
+              rows="5">
             </textarea>
           </div>
           <div class="mb-4 mt-4 form-controls">
@@ -281,10 +297,9 @@
       </div>
     </div>
   </div>
-  <div class="bg-dark ext-light py-5 mb-4">
+  <div class="ftr position-fixed bg-dark ext-light py-5 mb-0 bottom-0">
     <span class="visually-hidden"> black bottom area </span>
   </div>
-
 
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
